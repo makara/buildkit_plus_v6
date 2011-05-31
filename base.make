@@ -10,6 +10,8 @@ includes[buildkit] = "http://drupalcode.org/project/buildkit.git/blob_plain/refs
 projects[devel][subdir] = "contrib"
 projects[devel][version] = "1.24"
 
+projects[tao][version] = "3.2"
+
 libraries[profiler][download][type] = "file"
 libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-6.x-2.0-beta2.tar.gz"
 
@@ -79,7 +81,7 @@ projects[purl][subdir] = "contrib"
 projects[purl][version] = "1.0-beta13"
 
 projects[spaces][subdir] = "contrib"
-projects[spaces][version] = "3.0"
+projects[spaces][version] = "3.1"
 
 ; Libraries ===================================================================
 
