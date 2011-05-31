@@ -7,63 +7,79 @@ includes[buildkit] = "http://drupalcode.org/project/buildkit.git/blob_plain/refs
 
 ; Override buildkit ===========================================================
 
-projects[devel][version] = "1.24"
 projects[devel][subdir] = "contrib"
+projects[devel][version] = "1.24"
 
 libraries[profiler][download][type] = "file"
 libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-6.x-2.0-beta2.tar.gz"
+
+projects[ctools][patch][911362] = "http://drupal.org/files/issues/911362-8_D6_plugins_static.patch"
 
 ; Modules =====================================================================
 
 ; Special
 
-projects[jquery_update][version] = "2.0-alpha1"
 projects[jquery_update][subdir] = "contrib"
+projects[jquery_update][version] = "2.0-alpha1"
 
 ; Tools
 
-projects[boxes][version] = "1.0"
 projects[boxes][subdir] = "contrib"
+projects[boxes][version] = "1.0"
 
-projects[imageapi][version] = "1.10"
 projects[imageapi][subdir] = "contrib"
+projects[imageapi][version] = "1.10"
 
-projects[imagecache][version] = "2.0-beta12"
 projects[imagecache][subdir] = "contrib"
+projects[imagecache][version] = "2.0-beta12"
 
-projects[job_scheduler][version] = "1.0-beta3"
 projects[job_scheduler][subdir] = "contrib"
+projects[job_scheduler][version] = "1.0-beta3"
 
-projects[libraries][version] = "1.0"
 projects[libraries][subdir] = "contrib"
+projects[libraries][version] = "1.0"
 
-projects[mimedetect][version] = "1.3"
 projects[mimedetect][subdir] = "contrib"
+projects[mimedetect][version] = "1.3"
 
-projects[token][version] = "1.16"
 projects[token][subdir] = "contrib"
+projects[token][version] = "1.16"
 
-projects[transliteration][version] = "3.0"
 projects[transliteration][subdir] = "contrib"
+projects[transliteration][version] = "3.0"
 
 ; CCK
 
-projects[filefield][version] = "3.10"
 projects[filefield][subdir] = "contrib"
+projects[filefield][version] = "3.10"
 
-projects[imagefield][version] = "3.10"
 projects[imagefield][subdir] = "contrib"
+projects[imagefield][version] = "3.10"
+
+; Views
+
+projects[views_rss][subdir] = "contrib"
+projects[views_rss][version] = "1.0-beta5"
 
 ; Feeds & Data
 
-projects[data][version] = "1.0-alpha14"
 projects[data][subdir] = "contrib"
+projects[data][version] = "1.0-alpha14"
+projects[data][patch][937606] = "http://drupal.org/files/issues/937606_1.patch"
 
-projects[feeds][version] = "1.0-beta10"
 projects[feeds][subdir] = "contrib"
+projects[feeds][version] = "1.0-beta10"
 
-projects[schema][version] = "1.7"
 projects[schema][subdir] = "contrib"
+projects[schema][version] = "1.7"
+
+; Spaces
+
+projects[purl][subdir] = "contrib"
+projects[purl][version] = "1.0-beta13"
+
+projects[spaces][subdir] = "contrib"
+projects[spaces][version] = "3.0"
 
 ; Libraries ===================================================================
 
