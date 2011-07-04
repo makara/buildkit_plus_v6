@@ -3,7 +3,7 @@ api = "2"
 
 ; Includes ====================================================================
 
-includes[buildkit] = "http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/6.x-2.x:/drupal-org.make"
+includes[buildkit] = "http://drupalcode.org/project/buildkit.git/blob_plain/refs/tags/6.x-2.0-beta1:/drupal-org.make"
 
 ; Override buildkit ===========================================================
 
