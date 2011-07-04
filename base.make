@@ -7,15 +7,22 @@ includes[buildkit] = "http://drupalcode.org/project/buildkit.git/blob_plain/refs
 
 ; Override buildkit ===========================================================
 
-projects[devel][subdir] = "contrib"
-projects[devel][version] = "1.24"
-
-projects[tao][version] = "3.2"
+libraries[jquery_ui][download][type] = "file"
+libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.7.3.zip"
+libraries[jquery_ui][destination] = "libraries"
 
 libraries[profiler][download][type] = "file"
 libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-6.x-2.0-beta2.tar.gz"
 
 projects[ctools][patch][911362] = "http://drupal.org/files/issues/911362-8_D6_plugins_static.patch"
+
+projects[devel][subdir] = "contrib"
+projects[devel][version] = "1.24"
+
+projects[jquery_ui][subdir] = "contrib"
+projects[jquery_ui][version] = "1.5"
+
+projects[tao][version] = "3.2"
 
 ; Modules =====================================================================
 
@@ -70,7 +77,7 @@ projects[data][version] = "1.0-alpha14"
 projects[data][patch][937606] = "http://drupal.org/files/issues/937606_1.patch"
 
 projects[feeds][subdir] = "contrib"
-projects[feeds][version] = "1.0-beta10"
+projects[feeds][version] = "1.0-beta11"
 
 projects[schema][subdir] = "contrib"
 projects[schema][version] = "1.7"
