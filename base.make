@@ -39,7 +39,7 @@ projects[devel][version] = "1.26"
 
 projects[diff][type] = "module"
 projects[diff][subdir] = "contrib"
-projects[diff][version] = "2.2"
+projects[diff][version] = "2.3"
 
 projects[features][type] = "module"
 projects[features][subdir] = "contrib"
@@ -116,7 +116,7 @@ projects[mimedetect][version] = "1.3"
 
 projects[token][type] = "module"
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.16"
+projects[token][version] = "1.18"
 
 projects[transliteration][type] = "module"
 projects[transliteration][subdir] = "contrib"
