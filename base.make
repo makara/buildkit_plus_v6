@@ -4,6 +4,8 @@ api = "2"
 ; Buildkit ====================================================================
 ; http://drupalcode.org/project/buildkit.git/blob_plain/refs/tags/6.x-2.0-beta1:/drupal-org.make
 
+; Libraries
+
 libraries[jquery_ui][download][type] = "file"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.7.3.zip"
 libraries[jquery_ui][directory_name] = "jquery.ui"
@@ -43,7 +45,7 @@ projects[diff][version] = "2.3"
 
 projects[features][type] = "module"
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.1"
+projects[features][version] = "1.2"
 
 projects[jquery_ui][type] = "module"
 projects[jquery_ui][subdir] = "contrib"
@@ -55,7 +57,7 @@ projects[openidadmin][version] = "1.2"
 
 projects[strongarm][type] = "module"
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0"
+projects[strongarm][version] = "2.1"
 
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
@@ -72,13 +74,13 @@ projects[rubik][version] = "3.0-beta2"
 ; Patches
 
 ; http://drupal.org/node/830730
-projects[cck][patch][] = http://drupal.org/files/issues/cck_views_default_argument_plugin.patch
+projects[cck][patch][830730] = http://drupal.org/files/issues/cck_views_default_argument_plugin.patch
 
 ; http://drupal.org/node/911362
 projects[ctools][patch][911362] = "http://drupal.org/files/issues/911362-8_D6_plugins_static.patch"
 
 ; http://drupal.org/node/789674
-projects[views][patch][] = http://drupal.org/files/issues/789674-5_vocabulary_module.patch
+projects[views][patch][789674] = http://drupal.org/files/issues/789674-5_vocabulary_module.patch
 
 ; Modules =====================================================================
 
