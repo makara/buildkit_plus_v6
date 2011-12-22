@@ -22,6 +22,8 @@ projects[admin][version] = "2.0"
 projects[cck][type] = "module"
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.9"
+; http://drupal.org/node/830730
+projects[cck][patch][830730] = http://drupal.org/files/issues/cck_views_default_argument_plugin.patch
 
 projects[context][type] = "module"
 projects[context][subdir] = "contrib"
@@ -30,6 +32,8 @@ projects[context][version] = "3.0"
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.8"
+; http://drupal.org/node/911362
+projects[ctools][patch][911362] = "http://drupal.org/files/issues/911362-8_D6_plugins_static.patch"
 
 projects[date][type] = "module"
 projects[date][subdir] = "contrib"
@@ -62,6 +66,8 @@ projects[strongarm][version] = "2.1"
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
 projects[views][version] = "2.12"
+; http://drupal.org/node/789674
+projects[views][patch][] = "http://drupal.org/files/789674-29-vocabulary_module-6.x-2.x.patch"
 
 ; Themes
 
@@ -70,17 +76,6 @@ projects[tao][version] = "3.2"
 
 projects[rubik][type] = "theme"
 projects[rubik][version] = "3.0-beta2"
-
-; Patches
-
-; http://drupal.org/node/830730
-projects[cck][patch][830730] = http://drupal.org/files/issues/cck_views_default_argument_plugin.patch
-
-; http://drupal.org/node/911362
-projects[ctools][patch][911362] = "http://drupal.org/files/issues/911362-8_D6_plugins_static.patch"
-
-; http://drupal.org/node/789674
-projects[views][patch][789674] = http://drupal.org/files/issues/789674-5_vocabulary_module.patch
 
 ; Modules =====================================================================
 
