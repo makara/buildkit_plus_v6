@@ -65,7 +65,7 @@ projects[strongarm][version] = "2.1"
 
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
-projects[views][version] = "2.12"
+projects[views][version] = "2.16"
 ; http://drupal.org/node/789674
 projects[views][patch][] = "http://drupal.org/files/789674-29-vocabulary_module-6.x-2.x.patch"
 
