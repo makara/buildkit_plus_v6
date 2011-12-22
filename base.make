@@ -62,12 +62,14 @@ projects[openidadmin][version] = "1.2"
 projects[strongarm][type] = "module"
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.1"
+; http://drupal.org/node/1311704
+projects[strongarm][patch][1311704] = "http://drupal.org/files/1311704-order_by_name-5.patch"
 
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
 projects[views][version] = "2.16"
 ; http://drupal.org/node/789674
-projects[views][patch][] = "http://drupal.org/files/789674-29-vocabulary_module-6.x-2.x.patch"
+projects[views][patch][789674] = "http://drupal.org/files/789674-29-vocabulary_module-6.x-2.x.patch"
 
 ; Themes
 
