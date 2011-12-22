@@ -87,9 +87,12 @@ projects[jquery_update][version] = "2.0-alpha1"
 
 ; Tools
 
+; Thu, 3 Nov 2011 22:18:02 +0000
 projects[boxes][type] = "module"
 projects[boxes][subdir] = "contrib"
-projects[boxes][version] = "1.0"
+projects[boxes][download][type] = "git"
+projects[boxes][download][url] = "http://git.drupal.org/project/boxes.git"
+projects[boxes][download][revision] = "42e5569e8fcac21ec7a780b3bd8997827125635e"
 
 projects[imageapi][type] = "module"
 projects[imageapi][subdir] = "contrib"
